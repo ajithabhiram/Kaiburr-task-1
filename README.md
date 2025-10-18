@@ -32,13 +32,6 @@ It uses **MongoDB** for data persistence and includes **robust validation**, **s
 
 Follow the steps below to set up and run the application locally:
 
-### 1️⃣ Clone the Repository
-
-```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
-```
-
 ### 2️⃣ Start MongoDB using Docker
 
 Run the following command from the project root:
