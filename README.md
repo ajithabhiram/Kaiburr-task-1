@@ -28,9 +28,6 @@ It uses **MongoDB** for data persistence and includes **robust validation**, **s
 
 ---
 
-## ⚙️ Local Setup
-
-Follow the steps below to set up and run the application locally:
 
 ### 2️⃣ Start MongoDB using Docker
 
