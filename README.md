@@ -1,4 +1,3 @@
-
 # Kaiburr Assessment Task 1: Java REST API
 
 This project is a **production-level Java Spring Boot** application that exposes **REST endpoints** to create, manage, and execute shell command “tasks”.
