@@ -84,7 +84,7 @@ The core functionality allows users to define tasks with specific shell commands
 
 ## 5. API Endpoints & Usage Showcase
 
-The following examples demonstrate the complete workflow of creating, executing, retrieving, and deleting a task. The screenshots are from Postman.
+The following examples demonstrate the complete workflow of creating, executing, retrieving, and deleting a task.
 
 **Base URL**: `http://localhost:8080`
 
@@ -96,7 +96,7 @@ This endpoint creates a new task with a specified ID. If a task with the same ID
 * **Success Response**: `201 Created` with the newly created task object.
 
 **Screenshot: Creating a new task in Postman**
-![Create a new task](https://i.imgur.com/39wPj3O.png)
+![Create a new task](./create_task.png)
 
 ### 2. Execute a Task (`PUT /tasks/{id}/execute`)
 
@@ -106,7 +106,7 @@ This endpoint triggers the execution of the command associated with a task and r
 * **Success Response**: `200 OK` with the updated task object, now containing the new execution details in the `taskExecutions` array.
 
 **Screenshot: Executing the task and viewing the result**
-![Execute a task](https://i.imgur.com/eB3jV4j.png)
+![Execute a task](./execute_task.png)
 
 ### 3. Find a Task by Name (`GET /tasks/findByName`)
 
@@ -116,7 +116,7 @@ This endpoint searches for tasks where the name field contains the provided quer
 * **Success Response**: `200 OK` with an array of matching task objects, including their full execution history.
 
 **Screenshot: Searching for the task by name "Hello"**
-![Find a task by name](https://i.imgur.com/jWvM7mF.png)
+![Find a task by name](./get_task_by_name.png)
 
 ### 4. Delete a Task (`DELETE /tasks/{id}`)
 
@@ -126,7 +126,7 @@ This endpoint permanently removes a task from the database.
 * **Success Response**: `204 No Content`, indicating successful deletion with no response body.
 
 **Screenshot: Deleting the task**
-![Delete a task](https://i.imgur.com/mU4b4tq.png)
+![Delete a task](./delete_task.png)
 
 ---
 
