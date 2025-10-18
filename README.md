@@ -96,7 +96,7 @@ This endpoint creates a new task with a specified ID. If a task with the same ID
 * **Success Response**: `201 Created` with the newly created task object.
 
 **Screenshot: Creating a new task in Postman**
-![Create a new task](./create_task.png)
+![Create a new task](screenshots/create_task.png)
 
 ### 2. Execute a Task (`PUT /tasks/{id}/execute`)
 
@@ -106,7 +106,7 @@ This endpoint triggers the execution of the command associated with a task and r
 * **Success Response**: `200 OK` with the updated task object, now containing the new execution details in the `taskExecutions` array.
 
 **Screenshot: Executing the task and viewing the result**
-![Execute a task](./execute_task.png)
+![Execute a task](screenshots/execute_task.png)
 
 ### 3. Find a Task by Name (`GET /tasks/findByName`)
 
@@ -116,7 +116,7 @@ This endpoint searches for tasks where the name field contains the provided quer
 * **Success Response**: `200 OK` with an array of matching task objects, including their full execution history.
 
 **Screenshot: Searching for the task by name "Hello"**
-![Find a task by name](./get_task_by_name.png)
+![Find a task by name](screenshots/get_task_by_name.png)
 
 ### 4. Delete a Task (`DELETE /tasks/{id}`)
 
@@ -126,7 +126,7 @@ This endpoint permanently removes a task from the database.
 * **Success Response**: `204 No Content`, indicating successful deletion with no response body.
 
 **Screenshot: Deleting the task**
-![Delete a task](./delete_task.png)
+![Delete a task](screenshots/delete_task.png)
 
 ---
 
